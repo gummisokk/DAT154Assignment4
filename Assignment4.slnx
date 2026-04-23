@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Case Setup/Case Setup.csproj" />
+  <Project Path="Shared Library/Shared Library.csproj" />
+  <Project Path="Simulation/Simulation.csproj" />
+  <Project Path="Teacher Assessment/Teacher Assessment.csproj" />
+</Solution>

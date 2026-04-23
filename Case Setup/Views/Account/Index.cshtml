@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    ViewData["Title"] = "Kan du melda deg?";
+}
+
+<div class="text-center">
+    <form method="post" action="">
+        @Localizer["userName"]<br />
+        <input type="text" name="userName" value="" /><br />
+        <input type="submit" value="Submit" class="submit" />
+    </form>
+</div>
