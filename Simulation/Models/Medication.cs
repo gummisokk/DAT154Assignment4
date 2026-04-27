@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Simulation.Models
 {
-    internal class Medication
+    public class Medication
     {
         public string Name { get; set; }
         public string Dose { get; set; }

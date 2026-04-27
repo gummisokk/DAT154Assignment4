@@ -4,17 +4,12 @@ using System.Text;
 
 namespace Simulation.Models
 {
-    internal class CaseScenario
+    public class Case
     {
+        public string Id { get; set; }
         public Patient Patient { get; set; }
-
-        public MedicalHistory MedicalHistory { get; set; }
         public VitalSigns CurrentVitals { get; set; }
-
         public List<Medication> Medications { get; set; }
-        public List<Allergy> Allergies { get; set; }
-        public List<LabResult> LabResults { get; set; }
-
-        public List<Goal> Goals { get; set; }
+        public List<string> Allergies { get; set; }
     }
 }

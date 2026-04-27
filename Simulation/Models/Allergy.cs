@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Simulation.Models
 {
-    internal class Allergy
+    public class Allergy
     {
         public string Substance { get; set; }
         public string Reaction { get; set; }

@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Simulation.Models
 {
-    internal class VitalSigns
+    public class VitalSigns
     {
-        public int HeartRate { get; set; }
         public int SystolicBP { get; set; }
         public int DiastolicBP { get; set; }
+        public int HeartRate { get; set; }
         public int RespiratoryRate { get; set; }
-        public int OxygenSaturation { get; set; }
+        public int SpO2 { get; set; }
         public double Temperature { get; set; }
     }
 }
