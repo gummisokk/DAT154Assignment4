@@ -1,4 +1,3 @@
 <Solution>
-  <Folder Name="/Solution Items/" />
-  <Project Path="../../../../../../source/repos/DAT154Assignment4/Simulation/Simulation.csproj" />
+  <Project Path="Simulation.csproj" />
 </Solution>
