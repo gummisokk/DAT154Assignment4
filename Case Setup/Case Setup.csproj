@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Case_Setup</RootNamespace>
+    <AssemblyName>Case_Setup</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
