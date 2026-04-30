@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Simulation.Models
+namespace Shared_Library.Models
 {
-    public class ActionLog
+    public class Intervention
     {
+        public string Type { get; set; } 
         public DateTime Timestamp { get; set; }
-        public string Description { get; set; }
     }
 }

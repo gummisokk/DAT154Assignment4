@@ -18,7 +18,7 @@ namespace Simulation.Service
         {
             _logs.Add(action);
 
-            // Optional: debug output
+            //debug output
             Console.WriteLine($"{action.Timestamp}: {action.Description}");
 
             return Task.CompletedTask;

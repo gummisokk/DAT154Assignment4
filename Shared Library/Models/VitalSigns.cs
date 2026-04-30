@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Simulation.Models
+namespace Shared_Library.Models
 {
     public class VitalSigns
     {
