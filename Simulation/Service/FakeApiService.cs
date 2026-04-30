@@ -1,4 +1,4 @@
-﻿using Simulation.Models;
+﻿using Shared_Library.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,7 +18,7 @@ namespace Simulation.Service
         {
             _logs.Add(action);
 
-            // Optional: debug output
+            //debug output
             Console.WriteLine($"{action.Timestamp}: {action.Description}");
 
             return Task.CompletedTask;

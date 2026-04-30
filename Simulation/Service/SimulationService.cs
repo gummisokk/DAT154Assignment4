@@ -1,4 +1,4 @@
-﻿using Simulation.Models;
+﻿using Shared_Library.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -24,7 +24,7 @@ namespace Simulation.Service
 
         public async Task ApplyIntervention(Intervention intervention)
         {
-            // Apply physiological effect
+            // Apply fysisk effect
             ApplyEffect(intervention);
 
             // Log event
@@ -36,7 +36,7 @@ namespace Simulation.Service
 
             EventLog.Add(log);
 
-            // Send to backend (fake for now)
+            // Send to "fake" backend 
             await _api.SendAction(log);
         }
 

@@ -14,16 +14,16 @@ namespace Simulation
 
     public partial class App : Application
     {
-        protected override async void OnStartup(StartupEventArgs e) // SANITY CHECK: This is not recommended in production code
-        {
-            base.OnStartup(e);
+        //protected override async void OnStartup(StartupEventArgs e) // SANITY CHECK: This is not recommended in production code
+        //{
+        //    base.OnStartup(e);
 
-            var api = new FakeApiService();
-            var sim = new SimulationService(api);
+        //    var api = new FakeApiService();
+        //    var sim = new SimulationService(api);
 
-            await sim.Initialize();
+        //    await sim.Initialize();
 
-            System.Diagnostics.Debug.WriteLine(sim.CurrentCase?.Patient.FullName);
+        //    System.Diagnostics.Debug.WriteLine(sim.CurrentCase?.Patient.FullName);
         }
     }
 
